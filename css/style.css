@@ -1,0 +1,254 @@
+@media (max-width: 1200px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .container-fluid a {
+    display: inline-block;
+    font-family: "Pacifico", kursif;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .container-fluid a:hover {
+    color: #9932cc;
+  }
+  .container-fluid a::after {
+    content: " ";
+    display: block;
+    border-bottom: 4px solid #9932cc;
+    padding-bottom: 0.5rem;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  .container-fluid a:hover::after {
+    transform: scaleX(0.5);
+  }
+
+  /*Bagian content*/
+  .content {
+    overflow-x: hidden;
+  }
+  .card text-bg-light {
+    color: white;
+  }
+  .row.row-cols-1.row-cols-md-3.g-4 {
+    position: relative;
+    top: -100px;
+    right: 0;
+    left: 0;
+  }
+  .card {
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .card .card-body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    transition: 0.6s;
+    background-color: rgb(127, 255, 212, 0.5);
+  }
+  .col .card:hover .card-body {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+  }
+  footer {
+    text-align: center;
+    background-color: rgb(138, 43, 226, 0.5);
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
+/*Laptop*/
+@media screen and (max-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .container-fluid a {
+    display: inline-block;
+    font-family: "Pacifico", kursif;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .container-fluid a:hover {
+    color: #9932cc;
+  }
+  .container-fluid a::after {
+    content: " ";
+    display: block;
+    border-bottom: 4px solid #9932cc;
+    padding-bottom: 0.5rem;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  .container-fluid a:hover::after {
+    transform: scaleX(0.5);
+  }
+
+  /* Bagian content */
+  .content {
+    overflow-x: hidden;
+  }
+  .card text-bg-light {
+    color: white;
+  }
+  .row.row-cols-1.row-cols-md-3.g-4 {
+    position: relative;
+    top: -100px;
+    right: 0;
+    left: 0;
+  }
+  .card {
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .card .card-body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    transition: 0.6s;
+    background-color: rgb(127, 255, 212, 0.5);
+  }
+  .col .card:hover .card-body {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+  }
+  footer {
+    text-align: center;
+    background-color: rgb(138, 43, 226, 0.5);
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+}
+/*mobile*/
+@media screen and (max-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 55%;
+  }
+  .content {
+    overflow-x: hidden;
+  }
+  .row.row-cols-1.row-cols-md-3.g-4 {
+    position: relative;
+    top: 10px;
+    right: 0;
+    left: 0;
+  }
+  .row.row-cols-1.row-cols-md-3.g-4 .card-title .card-text {
+    opacity: 0;
+  }
+  footer {
+    text-align: center;
+    background-color: rgba(138, 43, 226 0.8);
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .container-fluid a {
+    display: inline-block;
+    font-family: "Pacifico", kursif;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .container-fluid a:hover {
+    color: #9932cc;
+  }
+  .container-fluid a::after {
+    content: " ";
+    display: block;
+    border-bottom: 4px solid #9932cc;
+    padding-bottom: 0.5rem;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  .container-fluid a:hover::after {
+    transform: scaleX(0.5);
+  }
+
+  /* Bagian content */
+  .content {
+    overflow-x: hidden;
+  }
+  .card text-bg-light {
+    color: white;
+  }
+  .row.row-cols-1.row-cols-md-3.g-4 {
+    position: relative;
+    top: -100px;
+    right: 0;
+    left: 0;
+  }
+  .card {
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .card .card-body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    transition: 0.6s;
+    background-color: rgb(127, 255, 212, 0.5);
+  }
+  .col .card:hover .card-body {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+  }
+  footer {
+    text-align: center;
+    background-color: rgb(138, 43, 226, 0.5);
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
